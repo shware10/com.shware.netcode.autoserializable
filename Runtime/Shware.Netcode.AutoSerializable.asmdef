@@ -1,0 +1,11 @@
+{
+  "name": "Shware.Netcode.AutoSerializable",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "../Analyzers/AutoSerializable.Generator.dll"
+  ]
+}
