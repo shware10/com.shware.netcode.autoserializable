@@ -1,0 +1,6 @@
+{
+  "name": "Shware.Netcode.AutoSerializable.Generator",
+  "includePlatforms": ["Editor"],
+  "references": [],
+  "autoReferenced": true
+}
