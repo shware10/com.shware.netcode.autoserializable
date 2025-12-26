@@ -1,1 +1,0 @@
-# com.shware.netcode.autoserializable
