@@ -1,0 +1,11 @@
+{
+    "name": "com.shware.netcode.autoserializable",
+    "displayName": "AutoSerializable for Netcode",
+    "version": "1.0.0",
+    "unity": "2022.3",
+    "description": "Auto-generates INetworkSerializable and IEquatable for Netcode structs",
+    "author" :{
+        "name": "Shware10",
+        "url" : "https://github.com/Shware10"
+    }
+}
