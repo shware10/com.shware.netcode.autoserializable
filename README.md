@@ -102,7 +102,7 @@ public struct PlayerStatePayload : INetworkSerializable, IEquatable<PlayerStateP
 ### ✅With AutoSerializable (Automatically Implementation)
 
 ```csharp
-[AutoSerializable(GenerateEquatable = true)]
+[AutoSerializable] //if you do not want to extend Equatable<T> then [AutoSerializable(GenerateEquatable = false)]
 public partial struct PlayerStatePayload
 {
     // Primitive
