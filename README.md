@@ -7,7 +7,7 @@ A Roslyn Incremental Source Generator that automatically generates safe and vali
 
 ---
 
-## ✨ What is this?
+## What is this?
 
 `AutoSerializableGenerator` eliminates the need to manually implement
 `INetworkSerializable` in Unity Netcode projects.
@@ -17,22 +17,22 @@ It is designed specifically for **pure data payloads** used in:
 - Command / event buses
 - Network DTOs
 
-> ❗ This generator enforces NGO best practices **at compile time**, not runtime.
+ This generator enforces NGO best practices **at compile time**, not runtime.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- ✅ Automatic `INetworkSerializable` generation
-- ✅ Array serialization with element-type validation
-- ✅ Compile-time diagnostics for invalid fields
-- ✅ Optional `IEquatable<T>` generation
-- ✅ Safe handling of empty payloads
-- ✅ Explicit exclusion of invalid NGO types (e.g. `NetworkVariable<T>`)
+- Automatic `INetworkSerializable` generation
+- Array serialization with element-type validation
+- Compile-time diagnostics for invalid fields
+- Optional `IEquatable<T>` generation
+- Safe handling of empty payloads
+- Explicit exclusion of invalid NGO types (e.g. `NetworkVariable<T>`)
 
 ---
 
-## 🧠 Design Philosophy
+## Design Philosophy
 
 This generator is **intentionally opinionated**.
 
@@ -51,7 +51,7 @@ If you need persistence, use a separate SaveData / JSON model.
 
 ---
 
-## 📦 Supported Field Types
+## Supported Field Types
 
 ### Value Types
 - Primitive types (`int`, `float`, `bool`, etc.)
@@ -72,9 +72,9 @@ If you need persistence, use a separate SaveData / JSON model.
 
 ---
 
-## 🧩 Nested Struct Support
+## Nested Struct Support
 
-### ✅ Supported
+### Supported
 
 Custom nested structs are supported **only if they explicitly implement**
 `INetworkSerializable`.
