@@ -99,7 +99,7 @@ public partial struct PlayerPayload
     public int PlayerId;
     public Stats Stats; // Supported
 }
-
+```
 ---
 
 ## 🔍 Comparison: Manual vs AutoSerializable
@@ -193,7 +193,7 @@ public struct PlayerStatePayload : INetworkSerializable, IEquatable<PlayerStateP
         return hash.ToHashCode();
     }
 }
-
+```
 ### With AutoSerializable (Automatically Implementation)
 
 ```csharp
@@ -214,4 +214,4 @@ public partial struct PlayerStatePayload
     // Array
     public int[] EquippedItemIds;
 }
-
+```
