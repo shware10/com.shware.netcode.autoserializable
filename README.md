@@ -97,5 +97,5 @@ public struct Stats : INetworkSerializable
 public partial struct PlayerPayload
 {
     public int PlayerId;
-    public Stats Stats; // ✅ Supported
+    public Stats Stats; // Supported
 }
