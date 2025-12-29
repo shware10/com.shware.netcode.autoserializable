@@ -99,7 +99,6 @@ public partial struct PlayerPayload
     public int PlayerId;
     public Stats Stats; // Supported
 }
----
 
 ---
 
