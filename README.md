@@ -3,7 +3,7 @@
 Compile-time enforced payload serialization for **Unity Netcode for GameObjects (NGO)**.
 
 A Roslyn Incremental Source Generator that automatically generates safe and validated
-`INetworkSerializable` implementations for **network payload / command / DTO structs**.
+`INetworkSerializable`/'IEquatable<T>' implementations for **network payload / command / DTO structs**.
 
 ---
 
