@@ -5,7 +5,7 @@ Compile-time enforced payload serialization for **Unity Netcode for GameObjects 
 A Roslyn Incremental Source Generator that automatically generates safe and validated
 `INetworkSerializable`/`IEquatable<T>` implementations for **network payload / command / DTO structs**.
 
- You can check the generated files in: C:\Temp\AutoSerializableDump
+>You can check the generated files in: C:\Temp\AutoSerializableDump
 ---
 
 ## Why AutoSerializable? Comparison: Manual vs AutoSerializable
