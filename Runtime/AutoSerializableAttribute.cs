@@ -10,9 +10,19 @@ namespace Shware.Netcode
     public sealed class AutoSerializableAttribute : Attribute
     {
         /// <summary>
-        /// Whether to generate IEquatable&lt;T&gt; implementation.
+        /// Whether to generate IEquatable<T> implementation.
         /// Default: true
         /// </summary>
-        public bool GenerateEquatable { get; set; } = true;
+        public bool GenerateEquatable { get; } = true;
+        
+        public AutoSerializableAttribute()
+        {
+            GenerateEquatable = true;
+        }
+
+        public AutoSerializableAttribute(bool generateEquatable)
+        {
+            GenerateEquatable = generateEquatable;
+        }
     }
 }
